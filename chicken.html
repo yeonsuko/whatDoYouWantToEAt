@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What do you want to eat?</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javaChicken.js" defer></script>
+</head>
+<body>
+
+    <div id="bg">
+        <div id="topBg"></div>
+        <div id="bottomBg"></div>
+    </div>
+    <div id="mainContainer">
+        <div id="mainContents">
+            <div id="titleBar">
+                <div id="titleBartext">
+                    <h>What do you want to eat?</h>
+                </div>
+            </div>
+            <div id="table" class="row">
+                <div id="chicken">
+                    <img id="realChicken"  width="400px" height="300px">
+                </div>
+                <div id="cola">
+                    <img id="realCola" alt="" width="300px" height="200px"> 
+                </div>
+            </div>
+            <div id="menu" class="row">
+                <div class="tool" toolVal ='0'><img src="img/fork.png" width="50px" height="80px"></div>
+                <div class="tool" toolVal ='1'><img src="img/hand.png" width="50px" height="80px"></div>
+                <div class="tool" toolVal ='2'><img src="img/knife.png" width="50px" height="80px"></div>
+                <div class="tool" toolVal ='3'><img src="img/straw.png" width="50px" height="80px"></div>
+            </div>
+            <div id="mouseText" class="row">
+                <div id="mouseMargin">fork</div>
+                <div id="mouseMargin">hand</div>
+                <div id="mouseMargin">knife</div>
+                <div id="mouseMargin">straws</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="menuBoard" class="text-size"> 
+        <div class="menuT"> [MENU] </div>
+        <div class="menuTitle">FOOD</div>
+        <div class="menuText" menuVal = '0'>- chicken</div>
+        <div class="menuText" menuVal = '1'>- pizza</div>
+        <div class="menuTitle">BEVERAGE</div>
+        <div class="menuText" menuVal = '2'>- coke</div>
+    </div>
+    
+
+</body>
+</html>

@@ -1,0 +1,152 @@
+body{
+    margin: 0px;
+}
+.row{
+    display: flex;
+    margin: auto;
+    width: 1060px;
+}
+
+
+#bg{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+#topBg{
+    width: 100%;
+    height: 70%;
+    background-color: #c9bfb5;
+}
+
+#bottomBg{
+    width: 100%;
+    height: 30%;
+    background-color:  #aaa5a0;
+}
+#mainContainer{
+    margin: 0px;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+}
+#mainContents{
+    width: 1060px;
+    height: 800px;
+    background-image: url(img/table2.png);
+}
+#titleBartext{
+    width: 637px;
+    height: 55px;
+    background-color: rgba(255, 255, 255, 0.774);
+    border: 5px solid rgb(85, 54, 25);
+    text-align: center;
+    margin-left: 260px;
+    font-size: 50px;
+    margin-top: 30px;
+    color: rgb(49, 31, 3);
+}
+#chicken{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    overflow: hidden; 
+    
+}
+#realChicken{
+    padding-top: 130px;
+    padding-left: 200px;
+  
+}
+#cola{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    
+   
+}
+#realCola{
+    padding-top: 200px;
+    padding-right: 100px;
+    
+}
+.box {
+    background-color: ivory;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#menuBoard{
+    position: fixed;
+    width: 150px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 150px;
+    left: 70%;
+    z-index: 200;
+    color: white;
+}
+
+.menuT{
+    height: 70px;
+    width: 150px;
+  
+    font-size: 40px;
+    text-align: right;
+    font-weight: 700;
+    color: #ffffffcb;
+}
+
+.menuTitle{
+    height: 60px;
+    width: 150px;
+    font-size: 25px;
+    text-align: right;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.74);
+}
+.menuText{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    text-align: right;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.747);
+}
+.text-size{
+    padding-top: 35px;
+    font-size: 30px;
+}
+.mouse {
+    background-color:ivory;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+#menu{
+    margin-left: 400px;
+    margin-top: 100px;
+    width: 400px;
+   
+}
+.tool{
+    padding: 0px 20px 0px 20px;
+    
+}
+
+#mouseText{
+    margin-left: 400px;
+    margin-top: 10px;
+    width: 300px;
+   
+}
+
+#mouseMargin{
+    padding: 0px 30px 0px 30px;
+    
+    
+}
